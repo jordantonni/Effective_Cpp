@@ -18,7 +18,7 @@ namespace intro
      * For objects -> sets aside memory
      * For functions and classes -> provies the implementation and members
      */
-    int x; // Sets aside memory
+    int x; // Sets aside memory for an int object
 
     std::size_t method(int num)
     {
