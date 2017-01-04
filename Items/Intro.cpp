@@ -3,6 +3,8 @@
 namespace intro
 {
     /* Declarations:
+     * 
+     * 
      * Lets compiler know about existence of some object or construct 
      */
     extern int x; // No memory set aside
@@ -14,6 +16,8 @@ namespace intro
 
 
     /* Definitions:
+     * 
+     * 
      * Gives compiler the details.
      * For objects -> sets aside memory
      * For functions and classes -> provies the implementation and members
@@ -25,6 +29,10 @@ namespace intro
         return num * 4;
     }
 
+    /*
+     * Classes
+     * 
+     */
     class Widget
     {
     public:
