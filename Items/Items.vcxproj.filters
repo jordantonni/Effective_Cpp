@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01 Accustoming to c++">
+      <UniqueIdentifier>{9ba925fb-e5e2-4e00-8f62-9f20415a8f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 Constructors, Destructors and Assignment Operators">
+      <UniqueIdentifier>{ba3e1366-e780-4b47-bb6b-9e3e419a5e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Resource Management">
+      <UniqueIdentifier>{1c8631f1-b8e5-4142-a674-08c5a3e0e108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04 Designs and Declarations">
+      <UniqueIdentifier>{b27a865b-4a20-48ad-8275-d3600f88bde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05 Implementations">
+      <UniqueIdentifier>{f3299424-343d-4c1f-8710-47ba6a89cee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06 Inheritance and Object-Oriented Design">
+      <UniqueIdentifier>{d0d40ea4-602d-48cd-8bd0-cb7f1832acfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07 Templates and Generic Programming">
+      <UniqueIdentifier>{0a82ee78-6d1e-4255-9f1e-65c08337d2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\08 Customizing new and delete">
+      <UniqueIdentifier>{3d44192f-1486-4c9e-bf15-812de66d6898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\09 Miscellany">
+      <UniqueIdentifier>{e1123360-8b4e-4f5a-9d07-7fa469ca2958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\00 Introduction">
+      <UniqueIdentifier>{47334b72-9a9a-449f-beb7-477a8f8948a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 01 cpp as federation.cpp">
+      <Filter>Source Files\01 Accustoming to c++</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 02 Prefer const to defines.cpp">
+      <Filter>Source Files\01 Accustoming to c++</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 03 Use const when possible.cpp">
+      <Filter>Source Files\01 Accustoming to c++</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 04 Objects initlalized before use.cpp">
+      <Filter>Source Files\01 Accustoming to c++</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 05 Compiler generated functions.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 06 Disallow auto gen functions not used.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 07 Virtual destructors in base.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 08 Ensure exceptions dont leave destructors.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 09 Don%27t call virtual functions form ctor or dtor.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 10 Assignment operator return ref to star this.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 11 Handle assingment to self.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 12 Copy all parts of object.cpp">
+      <Filter>Source Files\02 Constructors, Destructors and Assignment Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files\00 Introduction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
