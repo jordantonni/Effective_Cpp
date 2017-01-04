@@ -1,7 +1,9 @@
 /*
  * Use const whenever possible
- * 
- * 
+ *
+ * Bitwise const - Data memebers of the class arent modified in any way (but data pointed to by memeber pointer could be) How c++ compiler
+ *                 enforces const.
+ * Logical const - Idea that nothing should be changed though a const memeber method. Including data a memeber pointer points to.
  */
 
 #include <vector>
@@ -25,14 +27,14 @@ namespace item03
 
     /*
      * Functions
-     * 
+     *
      * Returning const from a function can stop things like (a*b) = c; if operator* within typeof(a) is non const that would be valid.
-     * 
-     * const member functions define the interface that can be used on const objects, important as you want to use 
+     *
+     * const member functions define the interface that can be used on const objects, important as you want to use
      * pass by refernce to const as much as possible for efficiency. Only possible if you have const methods that you want to call.
      *
      * you CAN overload on defining a method as const (just not only on the return type being const)
-     * 
+     *
      */
 
     struct textBlock
