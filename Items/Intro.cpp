@@ -28,10 +28,10 @@ namespace intro
     class Widget
     {
     public:
-        Widget();
-        Widget(const Widget& rhs); // Copy ctor (Initializses a new Widget from another one)
+        Widget() {}
+        Widget(const Widget& rhs) {} // Copy ctor (Initializses a new Widget from another one)
         Widget& operator=(const Widget& rhs); // Copy assingment operator (Copies value from another one into already existing Widget)
-        ~Widget();
+        ~Widget() {}
     };
 
     // = can also invoke copy ctor
@@ -61,6 +61,6 @@ namespace intro
 
     class C
     {
-        C(int x); // Not default ctor
+        C(int x); // Not a default ctor
     };
 }
