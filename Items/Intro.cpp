@@ -56,13 +56,11 @@ namespace intro
     class B
     {
         explicit B(int x = 1); // Also default ctor (can be called with no args) 
-                               // Explicit ensures can't convert int to B without using B(val)
+        // Explicit ensures can't convert int to B without using B(val)
     };
 
     class C
     {
         C(int x); // Not default ctor
     };
-
-
 }
