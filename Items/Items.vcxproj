@@ -161,6 +161,13 @@
     <ClCompile Include="Item 16 Use same new and delete forms.cpp" />
     <ClCompile Include="Item 17 New objects in smart pointers own statement.cpp" />
     <ClCompile Include="Item 18 Make interfaces hard to use incorrectly.cpp" />
+    <ClCompile Include="Item 19 Treat class design as type design.cpp" />
+    <ClCompile Include="Item 20 Pass by ref to const.cpp" />
+    <ClCompile Include="Item 21 Dont return reference when you must return an object.cpp" />
+    <ClCompile Include="Item 22 Declare data members private.cpp" />
+    <ClCompile Include="Item 23 Prefer non member non friend functions.cpp" />
+    <ClCompile Include="Item 24 Non member functions for type conversions on all params.cpp" />
+    <ClCompile Include="Item 25 Consider a non throwing swap.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

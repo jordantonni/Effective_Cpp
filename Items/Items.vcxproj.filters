@@ -97,5 +97,26 @@
     <ClCompile Include="Item 18 Make interfaces hard to use incorrectly.cpp">
       <Filter>Source Files\04 Designs and Declarations</Filter>
     </ClCompile>
+    <ClCompile Include="Item 19 Treat class design as type design.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 20 Pass by ref to const.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 21 Dont return reference when you must return an object.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 22 Declare data members private.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 23 Prefer non member non friend functions.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 24 Non member functions for type conversions on all params.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 25 Consider a non throwing swap.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
