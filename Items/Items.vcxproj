@@ -155,6 +155,12 @@
     <ClCompile Include="Item 10 Assignment operator return ref to star this.cpp" />
     <ClCompile Include="Item 11 Handle assingment to self.cpp" />
     <ClCompile Include="Item 12 Copy all parts of object.cpp" />
+    <ClCompile Include="Item 13 Use objects to manage resources.cpp" />
+    <ClCompile Include="Item 14 Copying behavior in resource-managing classes.cpp" />
+    <ClCompile Include="Item 15 Prodive access to raw resource res manage class.cpp" />
+    <ClCompile Include="Item 16 Use same new and delete forms.cpp" />
+    <ClCompile Include="Item 17 New objects in smart pointers own statement.cpp" />
+    <ClCompile Include="Item 18 Make interfaces hard to use incorrectly.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

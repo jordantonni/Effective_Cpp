@@ -79,5 +79,23 @@
     <ClCompile Include="Intro.cpp">
       <Filter>Source Files\00 Introduction</Filter>
     </ClCompile>
+    <ClCompile Include="Item 13 Use objects to manage resources.cpp">
+      <Filter>Source Files\03 Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 14 Copying behavior in resource-managing classes.cpp">
+      <Filter>Source Files\03 Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 15 Prodive access to raw resource res manage class.cpp">
+      <Filter>Source Files\03 Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 17 New objects in smart pointers own statement.cpp">
+      <Filter>Source Files\03 Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 16 Use same new and delete forms.cpp">
+      <Filter>Source Files\03 Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 18 Make interfaces hard to use incorrectly.cpp">
+      <Filter>Source Files\04 Designs and Declarations</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
