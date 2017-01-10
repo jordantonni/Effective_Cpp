@@ -22,7 +22,8 @@ namespace item17
 {
     class Widget{};
 
-    void processWidget(std::shared_ptr<Widget> sp, int priority);
+    void processWidget(std::shared_ptr<Widget> sp, int priority)
+    {}
 
     int getPriority()
     {

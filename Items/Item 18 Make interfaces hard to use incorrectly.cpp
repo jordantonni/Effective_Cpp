@@ -25,10 +25,7 @@
 namespace item18
 {
     class Resource
-    {
-    public:
-        static void close();
-    };
+    { };
 
     //BAD - Client has to remember to free resource
     //    - Also has to know not to use delete to free it, but call it's close method
@@ -43,9 +40,13 @@ namespace item18
         // delete rPtr // This isnt how to free the resource in this case
     }
 
-    //GOOD - Interface takes care of freeing resouce correctly, without client having to do anything
+    void close(Resource*)
+    {}
+
+    //    GOOD - Interface takes care of freeing resouce correctly, without client having to do anything
     std::shared_ptr<Resource> getRes()
     {
-        return std::shared_ptr<Resource>(new Resource, Resource::close);
+        std::shared_ptr<Resource> ret(new Resource, close);
+        return ret;
     }
 }
