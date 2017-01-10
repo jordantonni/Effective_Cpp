@@ -1,5 +1,13 @@
-int main()
+namespace item25
 {
-    return 0;
+    namespace WidgetStuff
+    {
+        void test();
+    }
 }
 
+int main()
+{
+    item25::WidgetStuff::test();
+    return 0;
+}

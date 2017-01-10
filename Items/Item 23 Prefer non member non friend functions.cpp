@@ -37,8 +37,11 @@ namespace item23
         class WebBrowser
         {
         public:
-            void clearCache();
-            void clearHistory();
+            void clearCache()
+            {}
+
+            void clearHistory()
+            {}
 
             // void clearEverything(); -Don't have this as a member, its a convienence function.
         };
