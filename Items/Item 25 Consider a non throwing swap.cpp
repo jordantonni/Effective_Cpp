@@ -167,6 +167,7 @@ namespace item25
 {
     namespace WidgetStuff
     {
+        // This should NOT throw any exceptions to keep strong exception guarantee
         void Widget::swap(Widget& rhs)
         {
             cout << "****** MEMEBER EFFICIENT SWAP ******" << endl;
