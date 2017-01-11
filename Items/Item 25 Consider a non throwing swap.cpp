@@ -138,21 +138,24 @@ namespace item25
             // Efficient Swap - Swaps the two resource pointers
             void swap(Widget& rhs);
         };
-
-
     }
 }
 
 /*
  * Ignore the absolute disaster with these namespaces
  * 
- * std::swap has to to be specialized before it is invoked anyway, else the template is already instantiated and compilation fails!
+ * std::swap has to to be specialized before it is invoked , else the template is already instantiated and compilation fails!
  * 
  * But we need the details of Widget before we specialize std::swap in order to be allowed to call a.swap(b)
  */
 
 namespace std
 {
+    // Total specialization of std::swap for the Widget class
+    // This ensures any calls made via the incorrect use of std::swap on a Widget will use this specialization
+    // Which invokes the efficient memeber swap, just like the non-memeber function does!
+    // Note: This can't work for Templated types, such as if Widget were templated, as we would then have to 
+    // Partially specialize on Widget, leaving T free. But you can't partially specialise functions!
     template <>
     void swap<item25::WidgetStuff::Widget>(item25::WidgetStuff::Widget& a, item25::WidgetStuff::Widget& b)
     {
