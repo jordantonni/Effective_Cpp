@@ -168,6 +168,12 @@
     <ClCompile Include="Item 23 Prefer non member non friend functions.cpp" />
     <ClCompile Include="Item 24 Non member functions for type conversions on all params.cpp" />
     <ClCompile Include="Item 25 Consider a non throwing swap.cpp" />
+    <ClCompile Include="Item 26 Postpone variable declarations as long as possible.cpp" />
+    <ClCompile Include="Item 27 Minimize casting.cpp" />
+    <ClCompile Include="Item 28 Avoid returning handles to object internals.cpp" />
+    <ClCompile Include="Item 29 Strive for exception safe code.cpp" />
+    <ClCompile Include="Item 30 Understand Inlining.cpp" />
+    <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

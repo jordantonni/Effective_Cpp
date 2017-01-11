@@ -118,5 +118,23 @@
     <ClCompile Include="Item 25 Consider a non throwing swap.cpp">
       <Filter>Source Files\04 Designs and Declarations</Filter>
     </ClCompile>
+    <ClCompile Include="Item 26 Postpone variable declarations as long as possible.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 27 Minimize casting.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 28 Avoid returning handles to object internals.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 29 Strive for exception safe code.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 30 Understand Inlining.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
