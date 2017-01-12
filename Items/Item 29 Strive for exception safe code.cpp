@@ -32,10 +32,15 @@ namespace item29
 {
     struct Image
     {
+        int val;
+        string src;
+
         explicit Image(const istream& src)
         {}
 
-        explicit Image(const string& src)
+        explicit Image(const string& src = "def", int v = 0)
+            : val{ v }
+            , src{ src }
         {}
     };
 
@@ -107,7 +112,12 @@ namespace item29
         shared_ptr<Image> bgIMage;
         int imageChanges;
 
-        void swap(PMImpl* p)
+        PMImpl()
+            : bgIMage { new Image }
+            , imageChanges { 0 }
+        { }
+
+        void swap(shared_ptr<PMImpl> p)
         {
             using std::swap;
             swap(imageChanges, p->imageChanges);
@@ -115,7 +125,7 @@ namespace item29
         }
     };
 
-    void swap(PMImpl* P1, PMImpl* P2)
+    void swap(shared_ptr<PMImpl> P1, shared_ptr<PMImpl> P2)
     {
         P1->swap(P2);
     }
@@ -123,9 +133,13 @@ namespace item29
     class DesktopBg
     {
         mutex mutex;
-        PMImpl* pimpl;
 
     public:
+        shared_ptr<PMImpl> pimpl;
+
+        DesktopBg()
+            : pimpl { new PMImpl }
+        { }
 
         void change_background_copy_and_swap(const string& img_src)
         {
@@ -135,9 +149,15 @@ namespace item29
             shared_ptr<PMImpl> copy(new PMImpl(*pimpl));
 
             copy->bgIMage.reset(new Image(img_src));
-            ++pimpl->imageChanges;
+            ++copy->imageChanges;
 
-            swap(pimpl, copy.get());
+            swap(pimpl, copy);
         }
     };
+
+    void test()
+    {
+        DesktopBg one;
+        one.change_background_copy_and_swap("two");
+    }
 }
