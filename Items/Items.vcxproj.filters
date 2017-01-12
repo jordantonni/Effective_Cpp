@@ -136,5 +136,13 @@
     <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp">
       <Filter>Source Files\05 Implementations</Filter>
     </ClCompile>
+    <ClCompile Include="Item 31 Person.cpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item 31 Person.hpp">
+      <Filter>Source Files\05 Implementations</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

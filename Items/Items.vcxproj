@@ -174,7 +174,11 @@
     <ClCompile Include="Item 29 Strive for exception safe code.cpp" />
     <ClCompile Include="Item 30 Understand Inlining.cpp" />
     <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp" />
+    <ClCompile Include="Item 31 Person.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item 31 Person.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
