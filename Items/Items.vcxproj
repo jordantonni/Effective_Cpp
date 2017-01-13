@@ -191,7 +191,9 @@
     <ClInclude Include="Item_31_PersonImpl.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Item 34 Differentiate inheritance interface vs implementationc.pp" />
+    <ClCompile Include="Item 34 Differentiate inheritance interface vs implementation.cpp">
+      <FileType>Document</FileType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

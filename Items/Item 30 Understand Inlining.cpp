@@ -23,6 +23,7 @@
  *          
  * Can't inline virtual functions.
  *  - Choosing what virtual function to use is run-time
+ *  - Only the most trivial virtual functions can be inlined really
  *
  * Can't inline functions called through function pointers or functions that have their addresses taken (need real function to take address of, obv)
  * 

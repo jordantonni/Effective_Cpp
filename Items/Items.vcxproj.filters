@@ -172,6 +172,9 @@
     <ClCompile Include="Item 40 Use multiple inheritance carefully.cpp">
       <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
     </ClCompile>
+    <ClCompile Include="Item 34 Differentiate inheritance interface vs implementation.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item 31 Person.hpp">
@@ -180,8 +183,5 @@
     <ClInclude Include="Item_31_PersonImpl.h">
       <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Item 34 Differentiate inheritance interface vs implementationc.pp" />
   </ItemGroup>
 </Project>

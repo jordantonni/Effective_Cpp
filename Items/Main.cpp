@@ -1,13 +1,13 @@
-#include <iostream>
 
 
-namespace item31
+namespace item34
 {
     void test();
 }
 
+
 int main()
 {
-    item31::test();
+    item34::test();
     return 0;
 }
