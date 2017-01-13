@@ -35,6 +35,12 @@
     <Filter Include="Source Files\00 Introduction">
       <UniqueIdentifier>{47334b72-9a9a-449f-beb7-477a8f8948a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\05 Implementations\Item 31 Minimize compilation dependency">
+      <UniqueIdentifier>{9c47ac75-121d-493e-820b-774406aa1047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL">
+      <UniqueIdentifier>{f642097c-8a06-43b9-ad26-9a04519da7f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -134,15 +140,48 @@
       <Filter>Source Files\05 Implementations</Filter>
     </ClCompile>
     <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp">
-      <Filter>Source Files\05 Implementations</Filter>
+      <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency</Filter>
     </ClCompile>
     <ClCompile Include="Item 31 Person.cpp">
-      <Filter>Source Files\05 Implementations</Filter>
+      <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_31_PersonImpl.cpp">
+      <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 32 Make sure public inheritance is-a.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 33 Avoid hiding inherited names.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 35 Consider alternatives of virtual functions.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 36 Never redefine non-virtual functions.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 37 Never redefine inherited default parameter.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 38 Composition for has-a or implemented by.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 39 Use private inheritance carefully.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 40 Use multiple inheritance carefully.cpp">
+      <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item 31 Person.hpp">
-      <Filter>Source Files\05 Implementations</Filter>
+      <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL</Filter>
     </ClInclude>
+    <ClInclude Include="Item_31_PersonImpl.h">
+      <Filter>Source Files\05 Implementations\Item 31 Minimize compilation dependency\PIMPL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Item 34 Differentiate inheritance interface vs implementationc.pp" />
   </ItemGroup>
 </Project>

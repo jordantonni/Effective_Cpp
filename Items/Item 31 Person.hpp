@@ -1,10 +1,11 @@
 #pragma once
 #include <string>
+#include <memory>
+#include "Item_31_PersonImpl.h"
 
 class Person
 {
-    std::string name;
-    int age;
+    std::shared_ptr<Item_31_PersonImpl> pImpl;
 
 public:
     Person(const std::string& name, int age);
