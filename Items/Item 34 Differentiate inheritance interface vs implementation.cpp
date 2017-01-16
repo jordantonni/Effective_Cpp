@@ -1,9 +1,10 @@
 /*
+ *Differentiate between inheritance of interface and inheritance of implementation
  *
  * Precisely specify what dervied classes inherit
  *  - Pure Virtual -> Interface only
- *  - Virtual      -> Interface + Default implementation
- *  - Non-Virtual  -> Interface + Mandatory implementation
+ *  - Virtual      -> Interface + Default implementation (can specialize and change)
+ *  - Non-Virtual  -> Interface + Mandatory implementation (can't change)
  */
 
 #include <iostream>
