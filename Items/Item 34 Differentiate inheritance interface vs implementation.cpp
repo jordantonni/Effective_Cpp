@@ -15,6 +15,11 @@ namespace item34
     {
     public:
         virtual void draw() = 0;
+
+        void print()
+        {
+            cout << "base" << endl;
+        }
     };
 
     class d : public base
@@ -24,6 +29,11 @@ namespace item34
         {
             int x;
         }
+
+                void print()
+                {
+                    cout << "der" << endl;
+                }
     };
 
     void base::draw()
@@ -31,10 +41,14 @@ namespace item34
         std::cout << "hehe" << std::endl;
     }
 
+
     void test()
     {
-        base* p = new d;
-        p->draw();
-        p->base::draw();
+        d x;
+        base* bp = &x;
+        d* dp = &x;
+
+        bp->print();
+        dp->print();
     }
 }
