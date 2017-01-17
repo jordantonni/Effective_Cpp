@@ -28,3 +28,16 @@
  *      - Implementation Domain -> Composition means is implemented in terms off
  */
 
+#include <string>
+
+namespace item38
+{
+    class Address{};
+    class PhoneNumber{};
+    struct Person
+    {
+        std::string name;   // Composition
+        Address add;        // ditto
+        PhoneNumber number; // ditto
+    };
+}
