@@ -33,7 +33,7 @@
  *      - If an exception is thrown the initialized data is destructed
  *  -> ctors and dtors are quite large!
  *  
- * Inlining functions mean changes to thhose functions result in a recompile of any file that invokes them!
+ * Inlining functions mean changes to those functions result in a recompile of any file that invokes them!
  */
 
 
