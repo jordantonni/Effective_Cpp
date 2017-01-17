@@ -175,6 +175,30 @@
     <ClCompile Include="Item 34 Differentiate inheritance interface vs implementation.cpp">
       <Filter>Source Files\06 Inheritance and Object-Oriented Design</Filter>
     </ClCompile>
+    <ClCompile Include="Item 41 Implicit interfaces and compile-time polymorphisim.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 42 The two meanings of typename.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 43 How to access names in templatized base classes.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 44 Factor parameter-independent code out of templates.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 45 When to use member function templates.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 46 Non-Member function inside templates for type conversions.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 47 Traits classes for information on types.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 48 Template Metaprogramming.cpp">
+      <Filter>Source Files\07 Templates and Generic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item 31 Person.hpp">

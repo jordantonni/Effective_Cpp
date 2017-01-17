@@ -176,6 +176,7 @@
     <ClCompile Include="Item 31 Minimize compilcation dependencies between files.cpp" />
     <ClCompile Include="Item 31 Person.cpp" />
     <ClCompile Include="Item 32 Make sure public inheritance is-a.cpp" />
+    <ClCompile Include="Item 42 The two meanings of typename.cpp" />
     <ClCompile Include="Item 33 Avoid hiding inherited names.cpp" />
     <ClCompile Include="Item 35 Consider alternatives of virtual functions.cpp" />
     <ClCompile Include="Item 36 Never redefine non-virtual functions.cpp" />
@@ -183,6 +184,13 @@
     <ClCompile Include="Item 38 Composition for has-a or implemented by.cpp" />
     <ClCompile Include="Item 39 Use private inheritance carefully.cpp" />
     <ClCompile Include="Item 40 Use multiple inheritance carefully.cpp" />
+    <ClCompile Include="Item 41 Implicit interfaces and compile-time polymorphisim.cpp" />
+    <ClCompile Include="Item 43 How to access names in templatized base classes.cpp" />
+    <ClCompile Include="Item 44 Factor parameter-independent code out of templates.cpp" />
+    <ClCompile Include="Item 45 When to use member function templates.cpp" />
+    <ClCompile Include="Item 46 Non-Member function inside templates for type conversions.cpp" />
+    <ClCompile Include="Item 47 Traits classes for information on types.cpp" />
+    <ClCompile Include="Item 48 Template Metaprogramming.cpp" />
     <ClCompile Include="Item_31_PersonImpl.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
