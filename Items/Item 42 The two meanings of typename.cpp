@@ -32,7 +32,10 @@
  */
 
 namespace item42
-{
+{   
+    template<typename> // Fwrd decl
+    class Base;
+
     template<typename T>
     class Derived : public Base<T>::Nested  // Don't use typename here
     {
