@@ -13,7 +13,7 @@
  *      - For full control ensure you define them also!
  * 
  * SUMMARY:
- *  - Member function templates all you to generate functions that accept all types you need without making seperate methods for them
+ *  - Member function templates allow you to generate functions that accept all types you need without making seperate methods for them
  *      - Useful for supporting ctors / assignment operators that can be instantited with other types
  *  - Templated ctors and assignment operators don't stop the compiler generated ones from being created
  */
@@ -21,5 +21,20 @@
 
 namespace item45
 {
-    
+    template <typename T>
+    class SmartPtr
+    {
+        T* rawPtr;
+    public:
+
+        template <typename U>
+        SmartPtr(const SmartPtr<U>& other)  // Allows a Smartptr of type T to be copy constructed from another SmartPtr of type U
+            : rawPtr{ other.get() }         // As long as their raw pointers are implicitly convertable!
+        { }
+
+        T* get() const
+        {
+            return rawPtr;
+        }
+    };
 }
