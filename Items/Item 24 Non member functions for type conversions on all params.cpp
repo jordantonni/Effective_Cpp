@@ -1,5 +1,5 @@
 /*
- * Declare functions that require all parameters undego type conversion, as non-member functions 
+ * Declare functions that require all parameters undergo type conversion, as non-member functions 
  * 
  * 
  * Non explict ctor with either 1 parameter or all having default values is an implicit conversion operator
@@ -11,7 +11,7 @@
  *      - Type x = Type(a) * Type(b);
  *      - Type x = Type(a) * 100; // uses the implicit conversion ctor on 100
  * 
- *  NOTE: Implicit conversion ONLY works on parameters, not on the this pointer passed to memeber functions.
+ *  NOTE: Implicit conversion ONLY works on parameters, not on the this pointer passed to member functions.
  *  
  *  If you need implicit conversions of all parameters, including what would otherwise be the this pointer, use non-member functions
  *  i.e. operator*, operator+ etc etc

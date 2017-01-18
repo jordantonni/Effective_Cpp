@@ -5,8 +5,8 @@
  *                 enforces const.
  * Logical const - Idea that nothing should be changed though a const memeber method. Including data a memeber pointer points to.
  * 
- * Compilers enforce bitwise const, but I should program using logical constnes
- * 
+ * Compilers enforce bitwise const, but I should program using logical constness
+ *
  * If const and non const methods have same implementations. Call the const from the non const using casts.
  */
 
