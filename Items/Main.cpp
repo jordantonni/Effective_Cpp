@@ -1,6 +1,6 @@
 
 
-namespace item44
+namespace item44_good
 {
     void test();
 }
@@ -9,6 +9,6 @@ namespace item44
 int main()
 {
     
-//    item44::test();
+    item44_good::test();
     return 0;
 }
