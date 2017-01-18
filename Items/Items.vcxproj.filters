@@ -199,6 +199,18 @@
     <ClCompile Include="Item 48 Template Metaprogramming.cpp">
       <Filter>Source Files\07 Templates and Generic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Item 49 new-handler.cpp">
+      <Filter>Source Files\08 Customizing new and delete</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 50 When to replace new and delete.cpp">
+      <Filter>Source Files\08 Customizing new and delete</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 51 Conventions for new and delete implementation.cpp">
+      <Filter>Source Files\08 Customizing new and delete</Filter>
+    </ClCompile>
+    <ClCompile Include="Item 52 Placement delete when placement new.cpp">
+      <Filter>Source Files\08 Customizing new and delete</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item 31 Person.hpp">

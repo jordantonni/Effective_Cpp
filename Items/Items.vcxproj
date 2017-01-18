@@ -191,6 +191,10 @@
     <ClCompile Include="Item 46 Non-Member function inside templates for type conversions.cpp" />
     <ClCompile Include="Item 47 Traits classes for information on types.cpp" />
     <ClCompile Include="Item 48 Template Metaprogramming.cpp" />
+    <ClCompile Include="Item 49 new-handler.cpp" />
+    <ClCompile Include="Item 50 When to replace new and delete.cpp" />
+    <ClCompile Include="Item 51 Conventions for new and delete implementation.cpp" />
+    <ClCompile Include="Item 52 Placement delete when placement new.cpp" />
     <ClCompile Include="Item_31_PersonImpl.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

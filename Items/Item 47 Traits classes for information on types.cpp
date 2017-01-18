@@ -12,9 +12,11 @@
  * - Partial template specialization of traits class: Can typedef built in types, such as pointers, setting the typedef manually
  *                                                    Needed because a built in type cant have a nested tag struct!
  * 
- * Can use typeid( typename widget_traits<Widget>::widget_tag )
+ * Can use typeid( typename widget_traits<Widget>::widget_tag ) with if statements to decide what to do depending on the information
  *  - To get the information on the class and then do stuff with it depending on that. Not a good way though
  *      - If statements are run time, we want compile time decisions on the information we get here
+ *  - If statements also don't work in all cases as you may wish to do something in a branch dependent on the traits tag that is only legal for that tag
+ *      - But all brances of code must be valid, so this doesnt work!
  *  
  * Better way?
  *  - Function overloading is a compile time decision. 
@@ -30,7 +32,44 @@
  */
 
 
+#include <iostream>
+
 namespace item47
 {
-    
+    // Tags that give the information we need
+    struct forward_movement_tag
+    {};
+
+    struct backward_movement_tag
+    {};
+
+    template <typename T>
+    struct movement_traits
+    {
+        typedef typename T::movement_category moverment_category; // Make the information of type T visable
+    };
+
+    class Widget
+    {
+        int x;
+    public:
+        typedef forward_movement_tag movement_category; // All classes that use the tags above must typedef what they support as the same name!
+    };
+
+    void call(const Widget& w, forward_movement_tag)
+    {
+        std::cout << "FORWARD" << std::endl;
+    }
+
+    void call(const Widget& w, backward_movement_tag)
+    {
+        std::cout << "BACKWARD" << std::endl;
+    }
+
+    void test()
+    {
+        Widget w;
+
+        call(w, typename movement_traits<Widget>::moverment_category()); //moverment_category has () after it as we are constructing the tag struct to pass in!
+    }
 }

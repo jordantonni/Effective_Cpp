@@ -1,6 +1,6 @@
 
 
-namespace item46
+namespace item48
 {
     void test();
 }
@@ -9,6 +9,6 @@ namespace item46
 int main()
 {
     
-    item46::test();
+    item48::test();
     return 0;
 }
