@@ -20,7 +20,8 @@
 
 namespace item17
 {
-    class Widget{};
+    class Widget
+    {};
 
     void processWidget(std::shared_ptr<Widget> sp, int priority)
     {}

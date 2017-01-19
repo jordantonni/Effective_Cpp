@@ -42,6 +42,5 @@ namespace item32
 
         study(s);
         // study(p);    - Fails as Person IS NOT a Student
-
     }
 }

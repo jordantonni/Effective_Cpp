@@ -62,7 +62,9 @@ namespace item27
     {
     public:
         virtual ~base();
-        virtual void something() {};
+
+        virtual void something()
+        {};
     };
 
     class derived : public base
@@ -86,13 +88,9 @@ namespace item27
      */
     void bad(base* b)
     {
-        if(derived* dp = dynamic_cast<derived*>(b))
-        {
-
-        }
-        else if(derivedTwo* d2p = dynamic_cast<derivedTwo*>(b))
-        {
-            
-        }
+        if (derived* dp = dynamic_cast<derived*>(b))
+        { }
+        else if (derivedTwo* d2p = dynamic_cast<derivedTwo*>(b))
+        { }
     }
 }

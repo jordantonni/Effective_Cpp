@@ -22,9 +22,9 @@ namespace item48
         /*
          * Recursively instantiates new Factorial structs, each with their own value for value
          */
-        enum 
+        enum
         {
-            value = N * Factorial<N - 1>::value 
+            value = N * Factorial<N - 1>::value
         };
     };
 
@@ -32,7 +32,7 @@ namespace item48
     template <>
     struct Factorial<0>
     {
-        enum 
+        enum
         {
             value = 1
         };

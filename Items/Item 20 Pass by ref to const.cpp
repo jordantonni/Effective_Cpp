@@ -38,6 +38,7 @@ namespace item20
         std::string a;
         std::string b;
     };
+
     class derived : base
     {
         std::string c;
@@ -51,5 +52,5 @@ namespace item20
      * 1 for Type two
      * A dtor for every ctor
      */
-    void pass_value(derived t);  
+    void pass_value(derived t);
 }

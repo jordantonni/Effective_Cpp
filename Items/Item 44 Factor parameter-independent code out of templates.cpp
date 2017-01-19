@@ -97,7 +97,7 @@ namespace item44_good
     class SquareMatrix : private SquareMatrixBase<T>
     {
     private:
-//        using SquareMatrixBase<T>::zero;
+        //        using SquareMatrixBase<T>::zero;
     public:
         SquareMatrix(T* data)
             : SquareMatrixBase<T>(data, n)
@@ -105,7 +105,7 @@ namespace item44_good
 
         void zero()
         {
-            SquareMatrixBase<T>::zero(); 
+            SquareMatrixBase<T>::zero();
         }
     };
 

@@ -26,7 +26,6 @@
 
 namespace item41
 {
-
     /*
      * Here whatever type you pass in must support the following implicit interface:
      * - Contain a size method, normalize method and swap method
@@ -36,7 +35,7 @@ namespace item41
     template <typename T>
     void doProcessing(T& w)
     {
-        if(w.size() > 10 && w!= someNastyThing)
+        if (w.size() > 10 && w != someNastyThing)
         {
             T temp(w);
             temp.normalize();

@@ -36,6 +36,7 @@ namespace item34
         {
             // do some stuff
         }
+
     public:
         virtual void fly() = 0;
     };
@@ -54,7 +55,7 @@ namespace item34
     public:
         virtual void fly()
         {
-            default_fly(); 
+            default_fly();
 
             Aeroplane::fly(); // Another way to ask specifically for default behaviour using a pure virtual implementation!
         }

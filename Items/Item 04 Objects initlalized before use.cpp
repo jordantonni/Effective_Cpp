@@ -72,6 +72,7 @@ namespace item04
     {
         static int local_static; // Has static lifetime but is LOCAL to the function
     }
+
     class test_class
     {
         static int class_static; // Has static lifetime

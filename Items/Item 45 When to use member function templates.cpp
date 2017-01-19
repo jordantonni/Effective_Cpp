@@ -28,8 +28,8 @@ namespace item45
     public:
 
         template <typename U>
-        SmartPtr(const SmartPtr<U>& other)  // Allows a Smartptr of type T to be copy constructed from another SmartPtr of type U
-            : rawPtr{ other.get() }         // As long as their raw pointers are implicitly convertable!
+        SmartPtr(const SmartPtr<U>& other) // Allows a Smartptr of type T to be copy constructed from another SmartPtr of type U
+            : rawPtr{ other.get() } // As long as their raw pointers are implicitly convertable!
         { }
 
         T* get() const

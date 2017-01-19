@@ -23,7 +23,7 @@ namespace item24
     {
         int num, den;
     public:
-        Rational(int n = 0 , int d = 1)
+        Rational(int n = 0, int d = 1)
             : num{ n }
             , den{ d }
         {}
@@ -44,7 +44,7 @@ namespace item24
      */
     const Rational operator*(const Rational& lhs, const Rational& rhs)
     {
-        return (lhs.numerator() * rhs.numerator(),
-                lhs.denominator() * rhs.denominator());
+        return (lhs.numerator() * rhs.numerator() ,
+            lhs.denominator() * rhs.denominator());
     }
 }

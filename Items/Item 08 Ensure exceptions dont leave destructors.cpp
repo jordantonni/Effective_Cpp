@@ -43,7 +43,8 @@ namespace item08
                 {
                     close();
                 }
-                catch(...) {
+                catch (...)
+                {
                     // Log and terminate
                 }
             }

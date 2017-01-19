@@ -71,7 +71,7 @@ namespace item46
         friend const Rational operator*(const Rational& lhs, const Rational& rhs)
         {
             return Rational(lhs.numerator() * rhs.numerator(),
-                               lhs.denominator() * rhs.denominator());
+                            lhs.denominator() * rhs.denominator());
         }
     };
 

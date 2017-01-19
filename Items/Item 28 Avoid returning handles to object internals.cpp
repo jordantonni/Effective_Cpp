@@ -21,5 +21,3 @@
  *  - Don't return handles (references, pointers, iterators) to object internals
  * 
  */
-
-

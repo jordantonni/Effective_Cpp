@@ -11,4 +11,3 @@ public:
     std::string Name() const;
     int Age() const;
 };
-

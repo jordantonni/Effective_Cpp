@@ -73,8 +73,5 @@ namespace item30
     {
         //func(1337);   Would be replaced with below
         std::cout << 1337 << std::endl;
-        
     }
-
-
 }

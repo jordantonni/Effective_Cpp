@@ -32,16 +32,16 @@
  */
 
 namespace item42
-{   
-    template<typename> // Fwrd decl
+{
+    template <typename> // Fwrd decl
     class Base;
 
-    template<typename T>
-    class Derived : public Base<T>::Nested  // Don't use typename here
+    template <typename T>
+    class Derived : public Base<T>::Nested // Don't use typename here
     {
     public:
         Derived(int x)
-            : Base<T>::Nested(x)    // Don't use typename here
+            : Base<T>::Nested(x) // Don't use typename here
         {
             typename Base<T>::Nested temp; // Use typename here
         }

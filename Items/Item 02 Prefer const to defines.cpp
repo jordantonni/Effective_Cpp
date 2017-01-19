@@ -12,7 +12,7 @@
 namespace item02
 {
     //Ensure both data and pointer are const
-    const char * const name = "Jordan";
+    const char* const name = "Jordan";
     //Prefer string objects to char*
     const std::string myName("Jordan");
 
@@ -21,7 +21,7 @@ namespace item02
     {
         // static members in classes are only DECLARATIONS, not definiitons. So typically you need to define the variable outside the class also
         // static const integtral types are the only exception to this rule, they are defined as below OK.
-        static const int numTurns = 5; 
+        static const int numTurns = 5;
         // This string must be defined outside the class as below
         static const std::string game_name;
         // Must also be defined outside the class as it's not a const static
@@ -43,6 +43,7 @@ namespace item02
         {
             numTurns = 5
         };
+
         int scores[numTurns]; // Uses the enum value at compile time. Doesnt set aside storage either, so similar to define. 
     };
 }

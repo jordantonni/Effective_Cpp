@@ -32,12 +32,16 @@
 
 namespace item38
 {
-    class Address{};
-    class PhoneNumber{};
+    class Address
+    {};
+
+    class PhoneNumber
+    {};
+
     struct Person
     {
-        std::string name;   // Composition
-        Address add;        // ditto
+        std::string name; // Composition
+        Address add; // ditto
         PhoneNumber number; // ditto
     };
 }

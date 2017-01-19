@@ -55,10 +55,8 @@ namespace item33
         using Base::mf3; // and allows the mf1(int) and mf3(double) from base to be called correctly!
 
 
-        virtual void mf1(); 
-        void mf3(); 
+        virtual void mf1();
+        void mf3();
         void mf4();
     };
-
-
 }

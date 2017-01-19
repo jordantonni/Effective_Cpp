@@ -10,5 +10,5 @@ class Person
 public:
     Person(const std::string& name, int age);
     std::string Name() const;
-    int Age() const; 
+    int Age() const;
 };

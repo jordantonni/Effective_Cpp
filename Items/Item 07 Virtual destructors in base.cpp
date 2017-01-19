@@ -58,6 +58,4 @@ namespace item07
 
     AWOL::~AWOL()
     { }
-
-
 }

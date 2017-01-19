@@ -33,20 +33,24 @@
 
 namespace item43
 {
-    template<typename T>
+    template <typename T>
     struct Base
     {
-        void someMethodA() {}
-        void someMethodB() {}
+        void someMethodA()
+        {}
+
+        void someMethodB()
+        {}
     };
 
-    template<>
+    template <>
     struct Base<int>
     {
-        void someMethodA() {} // In this total specialization for int, we don't declare a someMethodB, so it wouldn't be able to be called in derived for int
+        void someMethodA()
+        {} // In this total specialization for int, we don't declare a someMethodB, so it wouldn't be able to be called in derived for int
     };
 
-    template<typename T>
+    template <typename T>
     struct Derived : public Base<T>
     {
         void forwardMethod()
@@ -58,7 +62,5 @@ namespace item43
     };
 
     void test()
-    {
-        
-    }
+    { }
 }
