@@ -211,6 +211,9 @@
     <ClCompile Include="Item 52 Placement delete when placement new.cpp">
       <Filter>Source Files\08 Customizing new and delete</Filter>
     </ClCompile>
+    <ClCompile Include="Summary.cpp">
+      <Filter>Source Files\09 Miscellany</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item 31 Person.hpp">
